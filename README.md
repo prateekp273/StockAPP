@@ -10,10 +10,7 @@ Welcome to **StockApp**, a unique React Native-based app designed for stock enth
 - **Community Reviews**: Read reviews from other users and share your own experiences.
 - **Interactive UI**: A user-friendly interface that's easy to navigate.
 
-<p>
-  <img src="assets/images/Product_Screen.jpg" width="300" hspace="10">
-  <img src="assets/images/Explore_Screen.jpg" width="300" hspace="10">
-</p>
+
 
 ## 🚀 Getting Started
 
@@ -27,6 +24,7 @@ Welcome to **StockApp**, a unique React Native-based app designed for stock enth
    ```bash
    git clone https://github.com/prateekp273/StockApp.git
 
+
 2. Navigate to the project directory and install dependencies:
    ```bash
    cd StockApp
@@ -38,69 +36,54 @@ First, you will need to start Metro, the JavaScript bundler that ships with Reac
 
 To start Metro, run the following command from the root of your React Native project:
 
+    # using npm
+    npm start
 
-```bash
-Copy code
-# using npm
-npm start
-
-# OR using Yarn
-yarn start
+    # OR using Yarn
+    yarn start
 
 
-Step 2: Start your Application
+a. Start your Application
 Let Metro Bundler run in its own terminal. Open a new terminal from the root of your React Native project. Run the following command to start your Android or iOS app:
-
+ 
 For Android
-```bash
-# using npm
-npm run android
 
-# OR using Yarn
-yarn android
+    
+    # using npm
+    npm run android
+
+    # OR using Yarn
+    yarn android
 
 
 For iOS
-```bash
 
-# using npm
-npm run ios
+    
+    # using npm
+    npm run ios
 
-# OR using Yarn
-yarn ios
-
-
+    # OR using Yarn
+    yarn ios
 
 
 If everything is set up correctly, you should see your new app running in your Android Emulator or iOS Simulator shortly, provided you have set up your emulator/simulator correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-
-
 Step 3: Modifying your App
 Now that you have successfully run the app, let's modify it.
 
 Open App.tsx in your text editor of choice and edit some lines.
 
-For Android: Press the <kbd>R</kbd> key twice or select "Reload" from the Developer Menu (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Windows and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+- For Android: Press the <kbd>R</kbd> key twice or select "Reload" from the Developer Menu (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Windows and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
 
-For iOS: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+- For iOS: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
 
 🛠 Built With
 React Native - A framework for building native apps using React.
 JavaScript - The programming language used for app development.
-🤝 Contribute to StockApp
-We cherish every contribution & support. If you'd like to be a part of the StockApp journey:
-
-Fork the repository.
-Create a new branch for features or fixes.
-Send us a pull request.
-Ensure your code is neat and commented.
 📜 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
 
 🙌 Acknowledgments
 React Native Documentation
