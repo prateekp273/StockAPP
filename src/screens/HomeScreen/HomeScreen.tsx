@@ -80,7 +80,7 @@ const HomeScreen = () => {
               }}
               btnStyle={styles.firstBtnStyle}
               textStyle={styles.textStyle}
-              title="TOP GAINER"
+              title="TOP GAINERS"
               onPress={() => {
                 setIndex(0);
               }}
